@@ -5,7 +5,8 @@ class App
     public function __construct()
     {
         $url = $this->parseUrl();
-        if ($url[0] == "Payment") {
+        $controllerName = "HomeController";
+        if ($url[0] == "Game") {
             $controllerName = "PaymentController";
         }
 
