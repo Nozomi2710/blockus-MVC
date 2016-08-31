@@ -1,8 +1,8 @@
 #環境安裝
 ###安裝VM Virtual Box
 <dl>
-<dd>download [Virtual Box](http://www.virtualbox.org/)
-Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit</dd>
+<dd>download [Virtual Box](http://www.virtualbox.org/)</dd>
+<dd>Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit</dd>
 </dl>
 ubuntu 64bit
 硬碟  40G  固定大小
