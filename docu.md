@@ -4,7 +4,7 @@
 <dl>
   <dt>Virtual Box</dt>
   <dd>
-  download [Virtual Box](http://www.virtualbox.org/) 
+  download [Virtual Box][1] 
   [Google]: http://google.com/</dd>
   
   <dd>Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit</dd>
@@ -28,3 +28,4 @@ CPU 4顆
 等待複製等案
 安裝完重啟
 ___
+[1]: http://www.virtualbox.org/
