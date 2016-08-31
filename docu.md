@@ -74,11 +74,11 @@ sudo vi /etc/nginx/sites-enabled/default
       
 >  }
 
->  location ~ (.+\.php)$ {
+>location ~ (.+\.php)$ {
   
->      client_max_body_size 64M;
+>client_max_body_size 64M;
 
->      alias /home/_userName_/localFolder/public/$1;
+>alias /home/_userName_/localFolder/public/$1;
 
 >      fastcgi_split_path_info ^(.+\.php)(/.+)$;
 
