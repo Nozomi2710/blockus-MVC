@@ -30,5 +30,8 @@ Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit
   
    -  安裝完重啟
   
-___
-
+###安裝nignx
+```terminal
+sudo apt-get install nginx
+sudo /etc/init.d/nginx start (或 service nginx start)
+```
