@@ -4,7 +4,7 @@
 <dl>
   <dt>Virtual Box</dt>
   <dd>download Virtual Box</dd>
-  <dd>Z:\ linuxmint-17.1-cinnamon-64bit</dd>
+  <dd>Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit</dd>
 
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
