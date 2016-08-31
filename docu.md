@@ -1,22 +1,11 @@
 #環境安裝
 ##安裝VM
-##h2
+###Virtual Box
 ---
-download [Virtual Box][1] 
+download [Virtual Box]: http://www.virtualbox.org/
 [Google]: http://google.com/
-<dl>
-  <dt>Virtual Box</dt>
-  <dd>
-  download [Virtual Box][1] 
-  [Google]: http://google.com/</dd>
-  
-  <dd>Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit</dd>
+Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-download Virtual Box
-Z:// (clone) linuxmint-17.1-cinnamon-64bit
 ubuntu 64bit
 硬碟  40G  固定大小
 借用電腦僅能切割C槽
@@ -31,4 +20,4 @@ CPU 4顆
 等待複製等案
 安裝完重啟
 ___
-[1]: http://www.virtualbox.org/
+[1]
