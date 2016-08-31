@@ -1,5 +1,6 @@
 #環境安裝
 ##安裝VM Virtual Box
+---
 download [Virtual Box]: http://www.virtualbox.org/
 [Google]: http://google.com/
 Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit
@@ -18,4 +19,4 @@ CPU 4顆
 等待複製等案
 安裝完重啟
 ___
-[1]
+
