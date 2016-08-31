@@ -34,4 +34,9 @@ Z:\5研發二處\應用技術部\0共用\Linux\linuxmint-17.1-cinnamon-64bit
 ```terminal
 sudo apt-get install nginx
 sudo /etc/init.d/nginx start (或 service nginx start)
+sudo apt-get install php5-cli php5-cgi mysql-server php5-mysql
+/*
+新版的laravel為了配合php會需要更高的版本，一般安裝下的php 5.5.9會低於要求的版本
+*/
+
 ```
