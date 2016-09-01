@@ -42,7 +42,7 @@ sudo apt-get install php5-fpm
 
 可以先更新版本
 
-```php
+```terminal
 sudo add-apt-repository ppa:ondrej/php5-5.6 -y
 sudo apt-get update
 sudo apt-get install php5-fpm -y
@@ -56,40 +56,40 @@ sudo vi /etc/nginx/sites-enabled/default
 將其中的server{...}內容改為
 >server {
 
->  listen 80 default_server;
+>    listen 80 default_server;
   
->  listen [::]:80 default_server;
+>    listen [::]:80 default_server;
 
->	# Your project path
+>    # Your project path
 	
->  root /home/_userName_/localFolder/public;
+>    root /home/_userName_/localFolder/public;
 
->  index index.html index.php index.htm index.nginx-debian.html;
+>    index index.html index.php index.htm index.nginx-debian.html;
 
->  server_name _;
+>    server_name _;
 
->  location / {
+>    location / {
   
->      try_files $uri $uri/ =404 /index.php?$query_string;
+>        try_files $uri $uri/ =404 /index.php?$query_string;
       
->  }
+>    }
 
->location ~ (.+\.php)$ {
+>    location ~ (.+\.php)$ {
   
->client_max_body_size 64M;
+>        client_max_body_size 64M;
 
->alias /home/_userName_/localFolder/public/$1;
+>        alias /home/_userName_/localFolder/public/$1;
 
->      fastcgi_split_path_info ^(.+\.php)(/.+)$;
+>        fastcgi_split_path_info ^(.+\.php)(/.+)$;
 
->      include fastcgi_params;
+>        include fastcgi_params;
       
->      fastcgi_index index.php;
+>        fastcgi_index index.php;
       
->      fastcgi_param SCRIPT_FILENAME /home/_userName_/localFolder/public/$1;
+>        fastcgi_param SCRIPT_FILENAME /home/_userName_/localFolder/public/$1;
       
->      fastcgi_pass unix:/var/run/php5-fpm.sock;
+>        fastcgi_pass unix:/var/run/php5-fpm.sock;
       
->  }
+>    }
   
 >}
